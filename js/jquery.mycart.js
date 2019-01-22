@@ -226,7 +226,7 @@
         '</div>' +
         '<div class="modal-footer">' +
         '<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>' +
-        '<a style="background-color:#f04a7c;" href="../htmlpages/checkoutform.html" class="btn btn-primary ' + classCheckoutCart + '">Checkout</a>' +
+        '<a style="background-color:#f04a7c;" href="../productdetails/checkoutform.html" class="btn btn-primary ' + classCheckoutCart + '">Checkout</a>' +
         '</div>' +
         '</div>' +
         '</div>' +
