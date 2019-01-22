@@ -1,9 +1,3 @@
-/*
- * jQuery myCart - v1.7 - 2018-03-07
- * http://asraf-uddin-ahmed.github.io/
- * Copyright (c) 2017 Asraf Uddin Ahmed; Licensed None
- */
-
 (function ($) {
 
   "use strict";
@@ -331,7 +325,7 @@
       var products = ProductManager.getAllProducts();
       if (!products.length) {
         $("#" + idEmptyCartMessage).fadeTo('fast', 0.5).fadeTo('fast', 1.0);
-        return;
+        window.location.href = 'productdetails/checkoutform.html';
       }
       updateCart();
       var isCheckedOut = options.checkoutCart(ProductManager.getAllProducts(), ProductManager.getTotalPrice(), ProductManager.getTotalQuantity());
