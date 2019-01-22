@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>House of Cakes</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Charmonman:400,700" rel="stylesheet">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.6.3/css/all.css' integrity='sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/'
+        crossorigin='anonymous'>
+    <link href="addtocart.html">
+    <link href="index.html">
+    <link href="checkoutform.html">
+</head>
+<style>
+    .hide{
+padding: 20px;
+/* display: none; */
+color:#777575;
+}
+input{
+    border:1px solid #ccc;
+    font-weight: bold;
+    height: 33px;
+    text-align:center;
+    width:30px;
+}
+
+.card{
+    padding: 10px;
+}
+.col-md-5 img{
+    margin-top: 3%;
+    width:100%;
+}
+</style>
+
+<body>
+    <div class="row  no-gutters contact">
+        <div class="col-12 col-sm-6">
+            <ul class="mail">
+                <li><i class="fas fa-phone"></i></i> +192 8666 2548</li>
+                <li><i class="fas fa-map-marker-alt"></i>Kitui-kibwezi kisasi</li>
+                <li><i class="fas fa-envelope"></i>hello@housecake.co.ke</li>
+            </ul>
+        </div>
+        <div class="col-12 col-sm-6">
+            <ul class="socials">
+                <li><i class="fab fa-facebook-f"></i></li>
+                <li><i class="fab fa-twitter"></i></li>
+                <li><i class="fab fa-linkedin-in"></i></li>
+                <li><i class="fab fa-instagram"></i></li>
+
+            </ul>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-md ">
+        <div class="col-12 col-sm-3 text-center logo">
+            <a href="index.html" style="color:#f04a7c;text-align:center">
+                <img class="img-fluid mx-auto" src="../images/logo/cclogo.png" alt="" width="40px">
+                <p>house of cakes</p>
+            </a>
+        </div>
+        <div class="col-12 col-md-8 details ">
+            <ul>
+                <li><a style="color:#f04a7c;" href="index.html">Home</a></li>
+                <li>
+                    <div class="dropdown">
+                        <span class="dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Products
+                        </span>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <button class="dropdown-item">Cupcakes</button>
+                            <br>
+                            <button class="dropdown-item">Birthday cakes</button>
+                            <br>
+                            <button class="dropdown-item">Wedding cakes</button>
+                            <br>
+                            <button class="dropdown-item">Valentines Cakes</button>
+                            <br>
+                            <button class="dropdown-item">Graduation cakes</button>
+                            <br>
+                            <button class="dropdown-item">Customiced cakes</button>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <i class='fas  fa-cart-plus cart' style='font-size:36px;color:#f04a7c'><span class="badge badge-notify my-cart-badge"></span></i>
+                </li>
+            </ul>
+        </div>
+        <!-- <div class="col-12 col-sm-1"></div> -->
+    </nav>
+
+    <div class="container">
+        <div id="wedding3" class="row justify-content-center hide">
+            <div class="col-md-5" style="background-color:#f3f0f0">
+                <img class="img-fluid mx-auto" src="../images/products/wedding3.jpeg">
+            </div>
+            <div class="col-md-7">
+                <div class="col-md-7">
+                    <h2>Wedding cake 3</h2>
+                    <p>Product Code : LXJMDHF124</p>
+                    <img src="../images/products/star.png" alt="" class="start">
+                    <p class="price">USD $ 10,000</p>
+                    <p><b>Availability :</b>In Bakery</p>
+                    <label for="brand">Quantity:</label>
+                    <input type="text" value="1">
+                    <p style="margin-top:10px;"><b>Consectetur</b></p>
+                    <div class="card">
+                        <p>-Polor sit amet, consectetur adipisicing</p>
+                        <p>- optio eligendi? Architecto ab temporibus et!</p>
+                        <p>- Rchitecto optio eligendi? Architect rovident esse inventore aliquam fugiat, iure
+                            perferendis rovident esse </p>
+
+                    </div>
+                    <br>
+                    <button type="button" class="btn btn-default my-cart-icon" data-id="4" data-name="birthday cake 1"
+                        data-summary="summary 1" data-price="2000" data-quantity="1" data-image="../images/products/birthday.jpeg">
+                        Add to cart
+                    </button>
+                    <button type="button" class="btn btn-default my-cart-icon">
+                        Order now
+                    </button>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <section>
+        <!-- Footer -->
+        <div class="footer">
+            <div class="footer-copyright text-center py-3">© 2018 Copyright:
+                <a style="color:#fff" href="https://mdbootstrap.com/education/bootstrap/"> houseofcake.co.ke</a>
+            </div>
+
+        </div>
+    </section>
+</body>
+<script src="../../js/jquery-2.2.3.min.js"></script>
+<script type='text/javascript' src="../../js/bootstrap.min.js"></script>
+<script type='text/javascript' src="../../js/jquery.mycart.js"></script>
+<script type='text/javascript' src="../../js/addtocart.js"></script>
+<script>
+    window.jQuery || document.write('<script src="../js/jquery-slim.min.js"><\/script>')
+</script>
+<script src="../../js/popper.min.js"></script>
+<!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+<script src="../../js/holder.min.js"></script>
+
+</html>

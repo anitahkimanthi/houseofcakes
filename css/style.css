@@ -1,0 +1,444 @@
+body {
+    margin: 0;
+}
+
+.logo a p{
+    font-family: 'Charmonman', cursive;
+    font-size: 20px;
+    /* font-weight: bolder; */
+}
+.contact{
+    background-color: #f04a7c;
+    padding:10px;
+    color:#fff;
+}
+nav{
+    border-bottom: 1px solid #ccc;
+}
+.mail li{
+    display:inline-block;
+}
+.socials ul li{
+    display:inline-block;
+}
+.mail{
+    float: left
+}
+.socials{
+    float:right;
+}
+.fa-map-marker-alt{
+    margin-right: 10px;
+}
+.fa-envelope{
+    margin-right: 10px;
+}
+
+.badge-notify {
+    position: relative;
+    top: -20px;
+    right: 10px;
+}
+ul li{
+    list-style: none;
+}
+.socials li{
+    display: inline;
+    padding-left:30px;
+}
+.mail li{
+    padding-right: 30px;
+}
+.socials{
+    margin-right: 30px;
+}
+.my-cart-icon-affix {
+    position: fixed;
+    z-index: 999;
+}
+.col-md-7 img{
+    width:30%;
+}
+nav{
+    background-color: #fff;
+}
+.bounce{
+    text-decoration: none !important;
+    color: #535151;
+    
+}
+.btn-danger {
+    color: #fff;
+    background-color: #f04a7c !important;
+    border-color: #f04a7c !important;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+
+}
+
+nav ul {
+    justify-content: end;
+    align-items: flex-end;
+    text-align: end;
+}
+
+button a {
+    text-decoration: none;
+    color: #535151;
+}
+
+header {
+    height: 75px;
+    /* background-color: #000; */
+    padding-top: 10px;
+}
+
+
+@media (min-width:768px) {
+    .carousel-item img {
+        width: 100%;
+        height: 700px;
+    }
+}
+
+  
+  /* CUSTOMIZE THE CAROUSEL
+  -------------------------------------------------- */
+  
+  /* Carousel base class */
+  .carousel {
+    margin-bottom: 4rem;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 32rem;
+    background-color: #777;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+  
+  
+  /* MARKETING CONTENT
+  -------------------------------------------------- */
+  
+  /* Center align the text within the three columns below the carousel */
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  
+  
+  /* Featurettes
+  ------------------------- */
+  
+  .featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+  
+  
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  
+  @media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+
+@media (max-width:768px) {
+    .carousel-item img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.clicked {
+    color: #f04a7c !important;
+}
+
+.footer {
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    margin-top: 100px !important;
+    width: 100%;
+    background-color: #ee96b1;
+    color: white;
+    text-align: center;
+ }
+
+.sidebar a:hover{color:#f04a7c !important;}
+.services {
+    position: relative;
+    background-color: #fff;
+    /* height: 300px; */
+    margin-bottom: 100px;
+    margin-top: -100px;
+    border: 1px solid #ccc;
+}
+.liked{
+    color: #f04a7c;
+}
+.carousel-caption p a {
+    border: 1px solid #f04a7c;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.carousel-caption {
+    padding-bottom: 8% !important;
+    left:30% !important;
+    right:30% !important;
+    color:#fff !important;
+}
+.carousel-caption h2{
+    color:#fff !important;
+}
+.carousel-control-prev-icon {
+    display: inline-block;
+    width: 50px !important;
+    height: 50px !important;
+    background: transparent no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.carousel-control-next-icon {
+    display: inline-block;
+    width: 50px !important;
+    height: 50px !important;
+    background: transparent no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.productheader {
+    background-color: #fff;
+    border-radius: 4px;
+    ;
+}
+
+.content {
+    background-color: #fff;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.checkout {
+    background-color: #fff;
+    border-radius: 4px;
+    margin-right: 30px;
+}
+
+.productheader ul li {
+    padding-top: 22px;
+}
+
+.checkout ul li {
+    padding-top: 22px;
+}
+
+.productheader ul .right {
+    margin-right: 91px;
+}
+
+.productheader ul li {
+    display: inline-block;
+}
+
+.total ul li a {
+    text-decoration: none;
+}
+
+.checkout ul li {
+    list-style: none;
+}
+
+.total ul li {
+    list-style: none;
+}
+
+.productheader ul .left {
+    margin-right: 298px;
+}
+
+.bounce img{
+    width: 100%;
+}
+span ul {
+    justify-content: center;
+    text-align: center
+}
+
+span ul li a {
+    background-color: #f04a7c;
+    border-radius: 5px;
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+}
+
+span ul li a:hover {
+    background-color: #f190a0;
+    color: #fff;
+}
+.card .card-body a:hover{
+    color: #2e2c2c;
+}
+
+.product-detail {
+    margin-bottom: 100px;
+}
+
+.products {
+    border: 1px solid #ccc;
+    /* background: rgb(230, 230, 230);    */
+}
+
+.sidebar ul li {
+    list-style: none;
+}
+
+.sidebar {
+    /* border: 1px solid #ccc; */
+    padding-top: 50px;
+    margin: 10px;
+}
+
+.sidebarcol {
+    background: rgb(230, 230, 230);
+}
+
+.sidebar ul li a {
+    color: #535151;
+}
+
+.sidebar ul {
+    color: #535151;
+}
+
+.products {
+    padding: 30px !important;
+}
+
+.services img {
+    width: 40px;
+}
+
+.services {
+    padding: 20px !important;
+}
+
+strong {
+    color: #f04a7c;
+}
+
+.card-body ul li {
+    display: inline-block;
+}
+
+.fas {
+    font-size: 20px;
+}
+
+.card-body ul {
+    text-align: left;
+    justify-content: left;
+}
+
+.card-body ul li {
+    margin-left: 25px;
+}
+
+input[type=date],
+input[type=datetime-local],
+input[type=month],
+input[type=time] {
+    -webkit-appearance: listbox;
+    width: 89%;
+    padding: 5px 0 5px 15px;
+}
+
+/* productdetail */
+image {
+    margin: 40px
+}
+
+.col-md-7 h2 {
+    color: #555;
+}
+.col-md-7 button{
+
+    background-color: #f04a7c;
+    color: #fff;
+}
+
+.td {
+    width: 20%;
+}
+
+/* products style */
+.price{
+    color:#f04a7c;
+    font-size:26px;
+    font-weight: bold;
+    padding-top:20px;
+}
+.details{
+    color:#f04a7c;
+}
+nav{
+    padding: 0 !important;
+}
