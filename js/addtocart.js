@@ -23,7 +23,7 @@ $(function () {
     affixCartIcon: true,
     showCheckoutModal: true,
     numberOfDecimals: 2,
-    cartItems: [],
+    // cartItems: [],
 
     clickOnAddToCart: function($addTocart){
       goToCartIcon($addTocart);

@@ -226,7 +226,7 @@
         '</div>' +
         '<div class="modal-footer">' +
         '<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>' +
-        '<a style="background-color:#f04a7c;" href="../productdetails/checkoutform.html" class="btn btn-primary ' + classCheckoutCart + '">Checkout</a>' +
+        '<a style="background-color:#f04a7c;" href="../components/productdetails/checkoutform.html" class="btn btn-primary ' + classCheckoutCart + '">Checkout</a>' +
         '</div>' +
         '</div>' +
         '</div>' +
@@ -265,22 +265,7 @@
         '<div class="alert alert-danger" role="alert" id="' + idEmptyCartMessage + '">Your cart is empty</div>'
       );
 
-      var discountPrice = options.getDiscountPrice(products, ProductManager.getTotalPrice(), ProductManager.getTotalQuantity());
-      if (products.length && discountPrice !== null) {
-        $cartTable.append(
-          '<tr style="color: red">' +
-          '<td></td>' +
-          '<td><strong>Total (including discount)</strong></td>' +
-          '<td></td>' +
-          '<td></td>' +
-          '<td class="text-right"><strong id="' + idDiscountPrice + '"></strong></td>' +
-          '<td></td>' +
-          '</tr>'
-        );
-      }
-
       showGrandTotal();
-      showDiscountPrice();
     };
     var showModal = function () {
       drawTable();
@@ -295,9 +280,7 @@
     var showGrandTotal = function () {
       $("#" + idGrandTotal).text(options.currencySymbol + MathHelper.getRoundedNumber(ProductManager.getTotalPrice()));
     };
-    var showDiscountPrice = function () {
-      $("#" + idDiscountPrice).text(options.currencySymbol + MathHelper.getRoundedNumber(options.getDiscountPrice(ProductManager.getAllProducts(), ProductManager.getTotalPrice(), ProductManager.getTotalQuantity())));
-    };
+  
 
     /*
     EVENT
