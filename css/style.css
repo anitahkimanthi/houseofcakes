@@ -95,7 +95,7 @@ nav ul li {
 
 }
 .logo a img{
-    margin-top: -9px;
+    margin-top: 6px;
 }
 .nav2 ul li {
     display: inline-block;
@@ -109,7 +109,7 @@ nav ul li {
     justify-content: end;
     align-items: flex-end;
     text-align: end;
-    margin-top: 25px;
+    margin-top: 45px;
     margin-bottom: -30px;
 }
 
