@@ -42,7 +42,7 @@ nav {
     color: #fff;
 }
 a:hover{
-    text-decoration: none;
+    text-decoration: none !important;
 }
 .socials{
     margin-right: 30px;
