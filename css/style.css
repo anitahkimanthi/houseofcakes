@@ -41,6 +41,15 @@ nav {
 .socials li a{
     color: #fff;
 }
+a:hover{
+    text-decoration: none;
+}
+.socials{
+    margin-right: 30px;
+}
+a{
+    text-decoration: none;
+}
 .mails li a{
     color:#fff;
 }
@@ -99,6 +108,9 @@ nav ul li {
 }
 .logo a img{
     margin-top: 6px;
+}
+.logo a:hover{
+    text-decoration: none;
 }
 .nav2 ul li {
     display: inline-block;
