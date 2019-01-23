@@ -48,7 +48,9 @@ a:hover{
 .socials{
     margin-right: 30px;
 }
-
+.cart{
+    font-size: 28px !important;
+}
 a{
     text-decoration: none;
 }
