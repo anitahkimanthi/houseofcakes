@@ -38,6 +38,9 @@ nav {
     padding: .25em .5em !important;
     font-size: 48% !important;
 }
+.socials li a{
+    color: #fff;
+}
 .mails li a{
     color:#fff;
 }
