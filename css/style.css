@@ -152,6 +152,10 @@ button a {
 
         margin-bottom: 50px !important;
     }
+    .modal-dialog {
+        max-width: 820px !important;
+        margin: 1.75rem auto;
+    }
 
     .carousel-control-next-icon {
 
@@ -208,11 +212,7 @@ button a {
 }
 
 @media (max-width: 576px) {
-    .modal-dialog {
-        max-width: 820px !important;
-        margin: 1.75rem auto;
-    }
-
+   
     .carousel-item {
         height: 16rem !important;
     }
