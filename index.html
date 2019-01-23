@@ -15,53 +15,81 @@
     <link href="productdetals/checkoutform.html">
 </head>
 <style>
-.btn-default{
+    .btn-default{
     background-color: #f04a7c;
     color: #fff;
     padding: 5px 25px 5px 25px;
     border-style:none;
 }
 .btn-default:hover{
-    background-color: #d8809a
+    background-color: #d8809a;
+    color:#f04a7c;
+}
+p a:hover{
+    background-color: #f04a7c;
 }
 </style>
 
 <body>
-    <div class="row  no-gutters contact">
-        <div class="col-12 col-sm-6">
-            <ul class="mail">
-                <li><i class="fas fa-phone"></i></i> +192 8666 2548</li>
-                <li><i class="fas fa-map-marker-alt"></i>Kitui-kibwezi kisasi</li>
-                <li><i class="fas fa-envelope"></i>hello@housecake.co.ke</li>
-            </ul>
-        </div>
-        <div class="col-12 col-sm-6">
-            <ul class="socials">
-                <li><i class="fab fa-facebook-f"></i></li>
-                <li><i class="fab fa-twitter"></i></li>
-                <li><i class="fab fa-linkedin-in"></i></li>
-                <li><i class="fab fa-instagram"></i></li>
 
-            </ul>
-        </div>
-    </div>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top contact">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto mails">
+                    <li class="nav-item">
+                        <a href="#"><i class="fas fa-phone"></i></i> +192 8666 2548</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><i class="fas fa-map-marker-alt"></i>Kitui-kibwezi kisasi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><i class="fas fa-envelope"></i>hello@housecake.co.ke</a>
+                    </li>
+                </ul>
+                <ul class="mt-2 mt-md-0 solials">
+                    <li class="nav-item">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <br class="clearall"></br>
     <!-- header  -->
-    <nav class="navbar navbar-expand-md ">
+    <div class="row no-gutters nav2">
         <div class="col-12 col-sm-3 text-center logo">
             <a href="#" style="color:#f04a7c;text-align:center">
                 <img src="images/logo/cclogo.png" alt="" width="40px">
-                <p>house of cakes</p>
+                <h4>house of cakes</h4>
             </a>
         </div>
         <div class="col-12 col-md-8 details ">
             <ul>
-                <li><a style="color:#f04a7c;" href="index.html">Home</a></li>
+                <li><a style="color:#f04a7c;" href="index.html">
+                        <h4>Home</h4>
+                    </a></li>
                 <li>
                     <div class="dropdown">
-                        <span class="dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true"
+                        <h4 class="dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true"
                             aria-expanded="false">
                             Products
-                        </span>
+                        </h4>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
                             <button class="dropdown-item">Cupcakes</button>
                             <br>
@@ -83,16 +111,13 @@
             </ul>
         </div>
         <!-- <div class="col-12 col-sm-1"></div> -->
-    </nav>
+    </div>
 
     <!-- carousel -->
-
-
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item ">
-                <img class="img-fluid mx-auto" class="second-slide" src="images/carousel/carousel1.jpg"
-                    alt="Second slide">
+                <img class="img-fluid mx-auto" class="second-slide" src="images/carousel/carousel1.jpg" alt="Second slide">
                 <div class="container-fluid">
                     <div class="carousel-caption text-center">
                         <h1>Occation </h1>
@@ -104,8 +129,7 @@
             </div>
 
             <div class="carousel-item active">
-                <img class="img-fluid mx-auto " class="third-slide" src="images/carousel/cupcake1.jpeg"
-                    alt="Third slide">
+                <img class="img-fluid mx-auto " class="third-slide" src="images/carousel/cupcake1.jpeg" alt="Third slide">
                 <div class="container-fluid">
                     <div class="carousel-caption text-center">
                         <h1>cupcakes</h1>
@@ -117,17 +141,17 @@
             </div>
 
             <div class="carousel-item ">
-                <img class="img-fluid mx-auto" class="third-slide" src="images/carousel/carousel2.jpg"
-                    alt="Third slide">
+                <img class="img-fluid mx-auto" class="third-slide" src="images/carousel/carousel2.jpg" alt="Third slide">
                 <div class="container-fluid">
                     <div class="carousel-caption text-center">
                         <h1>Occation</h1>
                         <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi
                             porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                        <p><a class="button" href="#birthday">Details</a></p>
+                        <p><a class="button" href="#birthday">Order Now!</a></p>
                     </div>
                 </div>
             </div>
+
         </div>
 
         <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
@@ -208,19 +232,19 @@
                         <div class="col-md-4 text-center">
                             <div class="card">
                                 <a href="productdetails/products/coconut.html" class="bounce">
-                                    <img class="img-fluid mx-auto" src="images/products/coconutcc.jpeg">
+                                    <img class="img-fluid mx-auto" src="images/products/chocolate.jpeg">
                                 </a>
                                 <br>
                                 <div class="card-body">
-                                    coconut cupcake - <strong>Ksh : 120</strong>
+                                    Chocolate cupcake <br> <strong>Ksh 120</strong>
                                     <br>
                                     <br>
                                     <ul>
                                         <li><i class="fas fa-heart liked"></i></li>
-                                        <li><i class="fas  fa-cart-plus my-cart-btn" data-id="1" data-name="coconut cupcake"
-                                                data-price="120" data-quantity="1" data-image="images/products/coconutcc.jpeg"></i></li>
+                                        <li><i class="fas  fa-cart-plus my-cart-btn" data-id="1" data-name="Chocolate cupcake"
+                                                data-price="120" data-quantity="1" data-image="images/products/chocolate.jpeg"></i></li>
                                     </ul>
-                                    <a href="productdetails/products/coconut.html" class="btn btn-default" >
+                                    <a href="productdetails/products/coconut.html" class="btn btn-default">
                                         Details
                                     </a>
                                     <br>
@@ -235,7 +259,7 @@
                                 </a>
                                 <br>
                                 <div class="card-body">
-                                    cheese cupcake - <strong>Ksh : 100</strong>
+                                    cheese cupcake <br> <strong>Ksh 100</strong>
                                     <br>
                                     <br>
                                     <ul>
@@ -243,7 +267,7 @@
                                         <li><i class="fas  fa-cart-plus my-cart-btn" data-id="2" data-name="cheese cupcake"
                                                 data-summary="summary 2" data-price="100" data-quantity="1" data-image="images/products/cerrycheesecc.jpeg"></i></li>
                                     </ul>
-                                    <a href="productdetails/products/cheese.html" class="btn btn-default" >
+                                    <a href="productdetails/products/cheese.html" class="btn btn-default">
                                         Details
                                     </a>
                                     <br>
@@ -259,7 +283,7 @@
                                 </a>
                                 <br>
                                 <div class="card-body">
-                                    vanila cupcake - <strong>Ksh :180</strong>
+                                    vanila cupcake <br> <strong>Ksh 180</strong>
                                     <br>
                                     <br>
                                     <ul>
@@ -267,7 +291,7 @@
                                         <li><i class="fas  fa-cart-plus my-cart-btn" data-id="3" data-name="vanila cupcake"
                                                 data-summary="summary 3" data-price="30" data-quantity="1" data-image="images/products/vanilacc.jpeg"></i></li>
                                     </ul>
-                                    <a href="productdetails/products/vanila.html" class="btn btn-default" >Details</a>
+                                    <a href="productdetails/products/vanila.html" class="btn btn-default">Details</a>
                                     <br>
                                 </div>
                             </div>
@@ -285,7 +309,7 @@
                                 </a>
                                 <br>
                                 <div class="card-body">
-                                    Birthday cake 1 - <strong>Ksh : 2,000</strong>
+                                    Birthday cake 1 <br> <strong>Ksh 2,000</strong>
                                     <br>
                                     <br>
                                     <ul>
@@ -293,7 +317,7 @@
                                         <li><i class="fas  fa-cart-plus my-cart-btn" data-id="4" data-name="birthday cake 1"
                                                 data-price="2000" data-quantity="1" data-image="images/products/birthday.jpeg"></i></li>
                                     </ul>
-                                    <a href="productdetails/products/birthday1.html" class="btn btn-default" >
+                                    <a href="productdetails/products/birthday1.html" class="btn btn-default">
                                         Details
                                     </a>
                                     <br>
@@ -310,7 +334,7 @@
                                 </a>
                                 <br>
                                 <div class="card-body">
-                                    birthday cake 2 - <strong>Ksh : 1,500</strong>
+                                    birthday cake 2 <br> <strong>Ksh 1,500</strong>
                                     <br>
                                     <br>
                                     <ul>
@@ -318,7 +342,7 @@
                                         <li><i class="fas  fa-cart-plus my-cart-btn" data-id="5" data-name="birthday cake 2"
                                                 data-summary="summary 2" data-price="1500" data-quantity="1" data-image="images/products/birthday1.jpeg"></i></li>
                                     </ul>
-                                    <a href="productdetails/products/birthday2.html" class="btn btn-default" >
+                                    <a href="productdetails/products/birthday2.html" class="btn btn-default">
                                         Details
                                     </a>
                                     <br>
@@ -337,7 +361,7 @@
 
                                 <br>
                                 <div class="card-body">
-                                    Birthday cake 3 - <strong>Ksh : 2,100</strong>
+                                    Birthday cake 3 <br> <strong>Ksh 2,100</strong>
                                     <br>
                                     <br>
                                     <ul>
@@ -345,7 +369,7 @@
                                         <li><i class="fas  fa-cart-plus my-cart-btn" data-id="6" data-name="birthday 3"
                                                 data-summary="summary 3" data-price="2100" data-quantity="1" data-image="images/products/birthday2.jpeg"></i></li>
                                     </ul>
-                                    <a href="productdetails/products/birthday3.html" class="btn btn-default" >
+                                    <a href="productdetails/products/birthday3.html" class="btn btn-default">
                                         Details
                                     </a>
                                     <br>
@@ -366,7 +390,7 @@
                                 </a>
                                 <br>
                                 <div class="card-body">
-                                    wedding cake 1 - <strong>Ksh : 8,000</strong>
+                                    wedding cake 1 <br> <strong>Ksh 8,000</strong>
                                     <br>
                                     <br>
                                     <ul>
@@ -374,7 +398,7 @@
                                         <li><i class="fas  fa-cart-plus my-cart-btn" data-id="7" data-name="wedding cake 1"
                                                 data-summary="summary 4" data-price="8000" data-quantity="1" data-image="images/products/wedding.jpeg"></i></li>
                                     </ul>
-                                    <a href="productdetails/products/wedding1.html" class="btn btn-default" >
+                                    <a href="productdetails/products/wedding1.html" class="btn btn-default">
                                         Details
                                     </a>
                                     <br>
@@ -393,7 +417,7 @@
                                 </a>
                                 <br>
                                 <div class="card-body">
-                                    wedding cake 2 - <strong>Ksh : 5,550</strong>
+                                    wedding cake 2 <br> <strong>Ksh 5,550</strong>
                                     <br>
                                     <br>
                                     <ul>
@@ -401,7 +425,7 @@
                                         <li><i class="fas  fa-cart-plus my-cart-btn" data-id="8" data-name="wedding cake 2"
                                                 data-summary="summary 5" data-price="5550" data-quantity="1" data-image="images/products/wedding2.jpeg"></i></li>
                                     </ul>
-                                    <a href="productdetails/products/wedding2.html" class="btn btn-default" >
+                                    <a href="productdetails/products/wedding2.html" class="btn btn-default">
 
                                         Details
                                     </a>
@@ -419,7 +443,7 @@
                                 </a>
                                 <br>
                                 <div class="card-body">
-                                    wedding cake 3 - <strong>Ksh : 10,000</strong>
+                                    wedding cake 3 <br> <strong>Ksh 10,000</strong>
                                     <br>
                                     <br>
                                     <ul>
@@ -428,7 +452,7 @@
                                                 data-summary="summary 5" data-price="10000" data-quantity="1"
                                                 data-image="images/products/wedding3.jpeg"></i></li>
                                     </ul>
-                                    <a href="productdetails/products/wedding3.html" class="btn btn-default" >
+                                    <a href="productdetails/products/wedding3.html" class="btn btn-default">
                                         Details
                                     </a>
                                     <br>
@@ -451,7 +475,7 @@
                                 </a>
                                 <br>
                                 <div class="card-body">
-                                    valentine 1- <strong>Ksh : 1,600</strong>
+                                    valentine 1<br> <strong>Ksh 1,600</strong>
                                     <br>
                                     <br>
                                     <ul>
@@ -459,7 +483,7 @@
                                         <li><i class="fas  fa-cart-plus my-cart-btn" data-id="10" data-name="valentine 1"
                                                 data-summary="summary 5" data-price="1600" data-quantity="1" data-image="images/products/valentine.jpeg"></i></li>
                                     </ul>
-                                    <a href="productdetails/products/valentine1.html" class="btn btn-default" >
+                                    <a href="productdetails/products/valentine1.html" class="btn btn-default">
                                         Details
                                     </a>
                                     <br>
@@ -477,7 +501,7 @@
                                 </a>
                                 <br>
                                 <div class="card-body">
-                                    valentine 2- <strong>Ksh : 1,000</strong>
+                                    valentine 2<br> <strong>Ksh 1,000</strong>
                                     <br>
                                     <br>
                                     <ul>
@@ -485,7 +509,7 @@
                                         <li><i class="fas  fa-cart-plus my-cart-btn" data-id="11" data-name="valentine 2"
                                                 data-summary="summary 5" data-price="1000" data-quantity="1" data-image="images/products/valentineco.jpeg"></i></li>
                                     </ul>
-                                    <a href="productdetails/products/valentine2.html" class="btn btn-default" >
+                                    <a href="productdetails/products/valentine2.html" class="btn btn-default">
                                         Details
                                     </a>
                                     <br>
@@ -503,7 +527,7 @@
                                 </a>
                                 <br>
                                 <div class="card-body">
-                                    valentine 3- <strong>Ksh : 650</strong>
+                                    valentine 3<br> <strong>Ksh 650</strong>
                                     <br>
                                     <br>
                                     <ul>
@@ -511,7 +535,7 @@
                                         <li><i class="fas  fa-cart-plus my-cart-btn" data-id="12" data-name="valentine 3"
                                                 data-summary="summary 5" data-price="650" data-quantity="1" data-image="images/products/valentineoc.jpeg"></i></li>
                                     </ul>
-                                    <a href="productdetails/products/valentine3.html" class="btn btn-default" >
+                                    <a href="productdetails/products/valentine3.html" class="btn btn-default">
                                         Details
                                     </a>
                                     <br>
@@ -534,7 +558,7 @@
                                 </a>
                                 <div class="card-body">
                                     <br>
-                                    Graduation 1- <strong>Ksh : 1,800</strong>
+                                    Graduation 1<br> <strong>Ksh 1,800</strong>
                                     <br>
                                     <br>
                                     <ul>
@@ -542,7 +566,7 @@
                                         <li><i class="fas  fa-cart-plus my-cart-btn" data-id="13" data-name="graduation 1"
                                                 data-summary="summary 5" data-price="1800" data-quantity="1" data-image="images/products/graduation.jpeg"></i></li>
                                     </ul>
-                                    <a href="productdetails/products/graduation1.html" class="btn btn-default" >
+                                    <a href="productdetails/products/graduation1.html" class="btn btn-default">
                                         Details
                                     </a>
                                     <br>
@@ -561,7 +585,7 @@
                                 </a>
                                 <div class="card-body">
                                     <br>
-                                    Graduation 2 - <strong>Ksh : 850</strong>
+                                    Graduation 2 <br> <strong>Ksh 850</strong>
                                     <br>
                                     <br>
                                     <ul>
@@ -569,7 +593,7 @@
                                         <li><i class="fas  fa-cart-plus my-cart-btn" data-id="14" data-name="graduation 2"
                                                 data-summary="summary 5" data-price="850" data-quantity="1" data-image="images/products/graduation3.jpeg"></i></li>
                                     </ul>
-                                    <a href="productdetails/products/graduation2.html" class="btn btn-default" >
+                                    <a href="productdetails/products/graduation2.html" class="btn btn-default">
                                         Details
                                     </a>
                                     <br>
@@ -588,7 +612,7 @@
                                 </a>
                                 <div class="card-body">
                                     <br>
-                                    Graduation 3 - <strong>Ksh :1,050</strong>
+                                    Graduation 3 <br> <strong>Ksh 1,050</strong>
                                     <br>
                                     <br>
                                     <ul>
@@ -596,7 +620,7 @@
                                         <li><i class="fas  fa-cart-plus my-cart-btn" data-id="15" data-name="graduation 3"
                                                 data-summary="summary 5" data-price="1050" data-quantity="1" data-image="images/products/graduation.jpeg"></i></li>
                                     </ul>
-                                    <a href="productdetails/products/graduation3.html" class="btn btn-default" >
+                                    <a href="productdetails/products/graduation3.html" class="btn btn-default">
                                         Details
                                     </a>
                                     <br>
@@ -619,7 +643,7 @@
                                 </a>
                                 <br>
                                 <div class="card-body">
-                                    Customised 1 - <strong>Ksh : 4,000</strong>
+                                    Customised 1 <br> <strong>Ksh 4,000</strong>
                                     <br>
                                     <br>
                                     <ul>
@@ -627,7 +651,7 @@
                                         <li><i class="fas  fa-cart-plus my-cart-btn" data-id="16" data-name="customazed 1"
                                                 data-summary="summary 5" data-price="4000" data-quantity="1" data-image="images/products/customised.jpeg"></i></li>
                                     </ul>
-                                    <a href="productdetails/products/customised1.html" class="btn btn-default" >
+                                    <a href="productdetails/products/customised1.html" class="btn btn-default">
                                         Details
                                     </a>
                                     <br>
@@ -645,7 +669,7 @@
                                 </a>
                                 <div class="card-body">
                                     <br>
-                                    customised 2 - <strong>Ksh : 2,300</strong>
+                                    customised 2 <br> <strong>Ksh 2,300</strong>
                                     <br>
                                     <br>
                                     <ul>
@@ -653,7 +677,7 @@
                                         <li><i class="fas  fa-cart-plus my-cart-btn" data-id="17" data-name="customised 2"
                                                 data-summary="summary 5" data-price="2300" data-quantity="1" data-image="images/products/customised1.jpeg"></i></li>
                                     </ul>
-                                    <a href="productdetails/products/customised2.html" class="btn btn-default" >
+                                    <a href="productdetails/products/customised2.html" class="btn btn-default">
                                         Details
                                     </a>
                                     <br>
@@ -671,7 +695,7 @@
                                 </a>
                                 <div class="card-body">
                                     <br>
-                                    customised 3 - <strong>Ksh : 1,500</strong>
+                                    customised 3 <br> <strong>Ksh 1,500</strong>
                                     <br>
                                     <br>
                                     <ul>
@@ -679,7 +703,7 @@
                                         <li><i class="fas  fa-cart-plus my-cart-btn my-cart-btn" data-id="18" data-name="customised 3"
                                                 data-summary="summary 5" data-price="1500" data-quantity="1" data-image="images/products/customised3.jpeg"></i></li>
                                     </ul>
-                                    <a href="productdetails/products/customised3.html" class="btn btn-default" >
+                                    <a href="productdetails/products/customised3.html" class="btn btn-default">
                                         Details
                                     </a>
                                     <br>
@@ -695,15 +719,13 @@
     </div>
 
     <!-- footer -->
-    <section>
-        <!-- Footer -->
-        <div class="footer">
-            <div class="footer-copyright text-center py-3">© 2018 Copyright:
-                <a style="color:#fff" href="https://mdbootstrap.com/education/bootstrap/"> houseofcake.co.ke</a>
-            </div>
-
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+            <a style="color:#fff" href="https://mdbootstrap.com/education/bootstrap/"> houseofcake.co.ke</a>
         </div>
-    </section>
+
+    </div>
 
 </body>
 
@@ -717,6 +739,8 @@
 <script src="js/popper.min.js"></script>
 <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
 <script src="js/holder.min.js"></script>
+
+<!-- get the data of the clicked element -->
 <script type="text/javascript">
     // jQuery(document).ready(function ($) {
     $('.hide').hide()
