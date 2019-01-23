@@ -102,6 +102,7 @@
       } catch (e) {
         return [];
       }
+      
     };
     var updatePoduct = function (id, quantity) {
       var productIndex = getIndexOfProduct(id);
