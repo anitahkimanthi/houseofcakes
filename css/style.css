@@ -5,7 +5,7 @@ body {
 .logo a h4 {
     font-family: 'Charmonman', cursive;
     font-size: 20px;
-    /* font-weight: bolder; */
+    font-weight: bolder;
 }
 
 .contact {
