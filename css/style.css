@@ -29,7 +29,8 @@ nav {
 
 .badge-notify {
     position: relative;
-    top: -15px;
+    top: -23px;
+    left: 1px;
     background-color: #f04a7c;
     color: #fff;
     border-radius: .8rem !important;
