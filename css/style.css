@@ -99,12 +99,6 @@ nav {
     text-decoration: none;
 }
 
-.center-block {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 nav ul li {
     display: inline-block;
     padding: 10px;
@@ -132,7 +126,154 @@ button a {
 }
 
 
-@media (min-width:768px) {
+@media (min-width: 576px){
+    .modal-dialog {
+        max-width: 820px !important;
+        margin: 1.75rem auto;
+    }
+    .nav2 ul {
+        justify-content: end;
+        align-items: flex-end;
+        text-align: end;
+        margin-top: 45px;
+        margin-bottom: -30px;
+    }
+    .carousel-caption p {
+        display: none !important;
+    }
+    .carousel-caption h1{
+        margin-bottom: 20px !important;
+    }
+    .carousel-caption {
+        right: 15%;
+        top: 13% !important;
+        bottom: 30% !important;
+        left: 15%;
+        z-index: 10;
+    }
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        height: 18em;
+        overflow: hidden;
+    }
+
+    .carousel-item {
+        height: 32rem !important;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+    .carousel-control-prev-icon {
+    
+        margin-bottom: 50px !important;
+    }
+    
+    .carousel-control-next-icon {
+        
+        margin-bottom: 50px !important;
+    }
+  
+    .carousel-control-prev-icon {
+
+        margin-bottom: 70px !important;
+    }
+
+    .carousel-control-next-icon {
+
+        margin-bottom: 70px !important;
+    }
+    
+}
+
+@media (max-width: 576px) {
+   
+    .carousel-caption{
+        top: 24%
+    }
+    .carousel-item {
+        height: 16rem !important;
+    }
+    .carousel-caption p {
+        display: none !important;
+    }
+    h1 {
+        font-size: 2rem !important;
+    }
+    .carousel-control-prev-icon {
+    
+        margin-bottom: 50px !important;
+    }
+    
+    .carousel-control-next-icon {
+        
+        margin-bottom: 50px !important;
+    }
+    .carousel-caption h1{
+        margin-bottom: 20px !important;
+    }
+}
+
+@media (min-width: 768px){
+    .modal-dialog {
+        max-width: 820px !important;
+        margin: 1.75rem auto;
+    }
+    .nav2 ul {
+        justify-content: end;
+        align-items: flex-end;
+        text-align: end;
+        margin-top: 45px;
+        margin-bottom: -30px;
+    }
+    .carousel-caption {
+        right: 10% !important;
+        top: 4% !important;
+        left: 10% !important;
+        z-index: 10;
+    }
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        height: 18em;
+        overflow: hidden;
+    }
+    
+    .carousel-item {
+        height: 32rem !important;
+    }
+   
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .carousel-caption p {
+        display: block !important;
+    }
+    .carousel-control-prev-icon {
+    
+        margin-bottom: 50px !important;
+    }
+    
+    .carousel-control-next-icon {
+        
+        margin-bottom: 50px !important;
+    }
+  
+    .carousel-control-prev-icon {
+        margin-bottom: 70px !important;
+    }
+
+    .carousel-control-next-icon {
+        margin-bottom: 70px !important;
+    }
+    .carousel-caption h1{
+        margin-bottom: 20px !important;
+    }
+}
+
+@media (min-width:992px){
     .carousel-item img {
         width: 100%;
     }
@@ -147,7 +288,16 @@ button a {
     .carousel-item {
         height: 32rem !important;
     }
+    .carousel-caption {
+        right: 25% !important;
+        top: 9% !important;
+        left: 25% !important;
+        z-index: 10;
+    }
 
+    .carousel-caption p {
+        display: block !important;
+    }
     .carousel-control-prev-icon {
 
         margin-bottom: 50px !important;
@@ -161,91 +311,18 @@ button a {
 
         margin-bottom: 50px !important;
     }
-}
-
-@media (min-width: 576px) and (max-width:768px){
-    .modal-dialog {
-        max-width: 820px !important;
-        margin: 1.75rem auto;
-    }
-    .nav2 ul {
-        justify-content: end;
-        align-items: flex-end;
-        text-align: end;
-        margin-top: 45px;
-        margin-bottom: -30px;
-    }
-
-    .carousel-item {
-        height: 32rem !important;
-    }
-    .carousel-caption .description {
-        display: none;
-    }
-
-    h1 {
-        font-size: 2.5rem;
-    }
-    .carousel-control-prev-icon {
-    
-        margin-bottom: 50px !important;
-    }
-    
-    .carousel-control-next-icon {
-        
-        margin-bottom: 50px !important;
-    }
-  
-    .carousel-caption {
-        bottom: 150px !important;
-    
-    }
-    .carousel-control-prev-icon {
-
-        margin-bottom: 50px !important;
-    }
-
-    .carousel-control-next-icon {
-
-        margin-bottom: 50px !important;
+    .carousel-inner {
+        position: relative;
+        width: 100%;
+        height: 22em;
+        overflow: hidden;
     }
 }
 
-@media (max-width: 576px) {
-   
-    .carousel-item {
-        height: 16rem !important;
-    }
 
-    .carousel-caption .description {
-        display: none;
-    }
-
-    h1 {
-        font-size: 2.5rem;
-    }
-    .carousel-control-prev-icon {
-    
-        margin-bottom: 50px !important;
-    }
-    
-    .carousel-control-next-icon {
-        
-        margin-bottom: 50px !important;
-    }
-    .carousel-caption {
-        bottom: 51px !important;
-    
-    }
-}
 
 /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
-
-/* Carousel base class */
-.carousel {
-    margin-bottom: 4rem;
-}
 
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -256,11 +333,11 @@ button a {
 
 /* Declare heights because of positioning of img element */
 
-.carousel-item>img {
+.carousel-item img {
     position: absolute;
     top: 0;
     left: 0;
-    min-width: 100%;
+    min-width: 100% !important;
 }
 
 
@@ -345,9 +422,7 @@ button a {
 .services {
     position: relative;
     background-color: #fff;
-    /* height: 300px; */
-    margin-bottom: 100px;
-    margin-top: -100px;
+    margin: -80px 20px 80px 20px;
     border: 1px solid #ccc;
 }
 
@@ -355,7 +430,7 @@ button a {
     color: #f04a7c;
 }
 
-.carousel-caption p a {
+.carousel-caption a {
     border: 1px solid #f04a7c;
     padding: 10px;
     color: #fff;
@@ -363,11 +438,9 @@ button a {
     text-decoration: none;
 }
 
-.carousel-caption {
-    padding-bottom: 8% !important;
-    left: 30% !important;
-    right: 30% !important;
-    color: #fff !important;
+.carousel-caption a:hover {
+    color: #fff;
+    text-decoration: none;
 }
 
 .carousel-caption h2 {
