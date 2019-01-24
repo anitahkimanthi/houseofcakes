@@ -34,10 +34,19 @@
 .billing{
     background-color: #dad6d6;
     padding: 50px;
+    margin: 20px;
+}
+.container-fluid{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 .card{
     background-color: #dad6d6;
     padding: 20px;
+    margin: 20px;
+}
+.checkoutintro{
+    margin: 20px;
 }
 
 </style>
@@ -82,6 +91,7 @@
     </header>
 
     <br class="clearall"></br>
+    <div class="container-fluid">
     <!-- header  -->
     <div class="row no-gutters nav2">
         <div class="col-12 col-sm-3 col-md-4 text-center logo">
@@ -122,20 +132,19 @@
         
     </div>
     <hr>
-    <div class="container-fluid">
-                <br><br>
-        <div class="row">
-            <div class="col-md-6 offset-md-3" style="background-color: #fff">
-                <div class="row">
+    <br>
+        <div class="row no-gutters">
+            <div class="col-12 col-sm-10 col-md-6 offset-sm-1 offset-md-3" style="background-color: #fff">
+                <div class="row no-gutters">
+                    <div class="checkoutintro ">
                         <h3>Billing Address</h3>
-
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit nesciunt consectetur necessitatibus est unde pariatur perspiciatis reiciendis enim, 
                                 ex cumque, vero sapiente tempore nisi aperiam excepturi alias accusantium iusto amet.</p>
-                    <div class="col-12 col-sm-6 col-md-8 billing">
-                        
-                        <form>
-
-                            <div class="row">
+                    </div>
+                    <div class="col-12 col-sm-8 col-md-8 ">
+                        <div class="billing">
+                           <form>
+                            <div class="row no-gutters" >
                                 <div class="col-12">
                                     
                                    
@@ -213,10 +222,13 @@
                             </div>
                            
                             <button type="submit" value="Continue to checkout" class="btn">Continue to checkout</button>
-                        </form>
+                        </form> 
+                        </div>
+                        
                     </div>
-                    <div class="col-4 col-sm-4 col-md-4 cartdetails">
-                        <div class="container card">
+
+                    <div class="col-12 col-sm-4 col-md-4">
+                        <div class="card cartdetails">
                             <h4 style="color:#f04a7c" >Cart <span class="price" style="color:#f04a7c"><i class='fas  fa-cart-plus cart' style='font-size:26px;color:#f04a7c'></i> <b>3</b></span></h4>
                            
                                 <p>vanila cup cake1 1-<strong> Ksh  180</strong></p>
@@ -238,7 +250,7 @@
 <script src="../../../js/jquery-2.2.3.min.js"></script>
 <script type='text/javascript' src="../../../js/bootstrap.min.js"></script>
 <script type='text/javascript' src="../../../js/jquery.mycart.js"></script>
-<script type='text/javascript' src="js/addtocart.js"></script>
+<script type='text/javascript' src="../../js/addtocart.js"></script>
 <script>
     window.jQuery || document.write('<script src="../../../js/jquery-slim.min.js"><\/script>')
 </script>
