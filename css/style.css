@@ -189,6 +189,13 @@ button a {
 
 @media (max-width: 576px) {
    
+    .nav2 ul {
+        justify-content: end;
+        align-items: flex-end;
+        text-align: end;
+        margin-top: 45px;
+        margin-bottom: -30px;
+    }
     .carousel-caption{
         top: 24%
     }
