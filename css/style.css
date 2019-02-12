@@ -598,7 +598,7 @@ strong {
 }
 
 .card-body ul {
-    text-align: left;
+margin-left: -69px;
     justify-content: left;
 }
 
